@@ -1,0 +1,113 @@
+header {
+  background-color: #2f375b;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+header h4 {
+  font-family: Leelawadee UI;
+  color: white;
+}
+header ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 15px;
+}
+header ul li a {
+  color: #8b8fa1;
+  text-decoration: none;
+  font-family: Leelawadee UI;
+  font-weight: bold;
+}
+header ul li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+}
+
+/**********   Style de la section 1  */
+.section1 {
+  background-color: #535b7e;
+  margin-top: -30px;
+  height: 400px;
+}
+.section1 h1 {
+  color: #de4943;
+  font-family: Leelawadee UI;
+  font-style: italic;
+  font-size: 35px;
+  text-align: center;
+
+  padding-top: 70px;
+}
+.section1 > p {
+  color: white;
+  text-align: center;
+}
+.competences {
+  margin-left: 40%;
+}
+.competences img {
+  width: 70px;
+  margin-right: 15px;
+}
+/*********     style section 2    ****/
+#mesProjets {
+  background-color: #99c5d2;
+  margin-top: -30px;
+}
+#mesProjets h1 {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  padding-top: 30px;
+  font-style: italic;
+  text-decoration: underline;
+}
+.lesProjets {
+  border: 5px inset tomato;
+  width: 250px;
+
+  display: inline-block;
+  margin-right: 20px;
+  padding: 10px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  color: white;
+}
+.lesProjets h3 {
+  text-align: center;
+  color: tomato;
+}
+/*****    style du footer *****/
+#contacterMoi {
+  background-color: #f0c419;
+  margin-top: -30px;
+}
+#contacterMoi h1 {
+  text-align: center;
+  padding-top: 25px;
+  color: white;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+table {
+  width: 500px;
+}
+.fa {
+  margin-right: 70px;
+  color: white;
+}
+.fontAwsome {
+  margin-left: 40%;
+  padding-bottom: 30px;
+  padding-top: 50px;
+}
+span {
+  color: white;
+  font-weight: bold;
+}

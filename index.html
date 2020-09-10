@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofilio</title>
+    <link rel="icon" href="images/project.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h4>Portofilio</h4>
+
+      <ul>
+        <li><a href="index.html"> About </a></li>
+        <li><a href="#mesProjets">Projects </a></li>
+        <li><a href="#contacterMoi"> contact </a></li>
+      </ul>
+    </header>
+    <main>
+      <section class="section1">
+        <h1>Hey I am Mohamed Ali</h1>
+        <p>A software Developer</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni
+          dolorum voluptate quod sint beatae facilis obcaecati, facere
+          cupiditate consequatur quia voluptatibus, accusamus rerum nobis
+          voluptatem accusantium! Sit cum error nisi.
+        </p>
+        <div class="competences">
+          <img src="images/html_logo.png" alt="html" />
+          <img src="images/css3_logo.png" alt="css3" />
+          <img src="images/js.png" alt="js" />
+        </div>
+      </section>
+      <section id="mesProjets">
+        <h1>Projects</h1>
+
+        <div class="lesProjets">
+          <h3>Projet1</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. At velit
+            temporibus, ullam fugit modi numquam hic aliquam inventore molestias
+            laudantium, amet quod laborum maiores iusto sit quo consequatur. Ad,
+            porro.
+          </p>
+          <img src="images/project.jpg" alt="projet1" width="250px" />
+        </div>
+        <div class="lesProjets">
+          <h3>Projet2</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
+            consequuntur labore odit ex eaque possimus quod quaerat voluptatem,
+            sint laboriosam, necessitatibus ea. Possimus, porro fugiat harum
+            minima quasi iste officia!
+          </p>
+          <iframe
+            width="250"
+            src="https://www.youtube.com/embed/RUFGQgOGki8"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+        <div class="lesProjets">
+          <h3>Projet3</h3>
+
+          <ul style="margin-bottom: 80px">
+            <li>lorem ipsum</li>
+            <li>lorem ipsum</li>
+          </ul>
+          <img src="images/project.jpg" alt="projets" width="250" />
+        </div>
+      </section>
+      <footer id="contacterMoi">
+        <h1>Contact me by</h1>
+
+        <form>
+          <table>
+            <tr>
+              <th><label for="nom"> Votre nom : </label></th>
+              <td>
+                <input type="text" id="nom" placeholder="votre nom" required />
+              </td>
+            </tr>
+            <tr>
+              <th><label for="prenom"> Prénom :</label></th>
+              <td>
+                <input type="text" placeholder="votre prénom" id="prenom" />
+              </td>
+            </tr>
+            <tr>
+              <th><label for="email"> Email : </label></th>
+              <td>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="aa@outlook.com"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <th><label for="ZoneTexte "> Votre message : </label></th>
+              <td>
+                <textarea
+                  name="zoneTexte"
+                  id="zoneTexte"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </td>
+            </tr>
+            <tr>
+              <th></th>
+              <th>
+                <button type="submit">Envoyer</button>
+                <button type="reset">Reset</button>
+              </th>
+            </tr>
+          </table>
+        </form>
+         <div class="fontAwsome">
+        <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-code fa-2x" aria-hidden="true"></i> <br>
+        
+        <span>GitHub</span>
+        <span style="margin:45px">LinkedIn</span>
+        <span>Code</span>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
